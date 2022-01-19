@@ -6,3 +6,6 @@ services:
       memory: 1Gi
     ports:
       - "80:80"
+    env:
+      - name: s
+        value: "-L=ws://:9999"
