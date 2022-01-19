@@ -1,5 +1,4 @@
 FROM alpine:latest
-ENV s="-L=ws://:80"
 WORKDIR /app
 RUN apk update \
   && apk add --no-cache curl gzip bash \
