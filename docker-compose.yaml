@@ -1,0 +1,8 @@
+services:
+  gost:
+    build: .
+    resources:
+      cpu: 500m
+      memory: 1Gi
+    ports:
+      - "80:80"
